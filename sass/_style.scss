@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+	background-color: #00BFAD;
+}
+
+nav{
+	.nav-wrapper{
+		width: 100%;
+		text-align: center;
+		li{
+			float: none;
+			display: inline-block;
+			a{
+				padding: 25px 40px 0px 40px;
+			}
+		}
+	}
+}
