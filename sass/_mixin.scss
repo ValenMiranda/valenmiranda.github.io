@@ -1,0 +1,7 @@
+@mixin circulo(){
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
