@@ -23,21 +23,12 @@ nav{
 	}
 }
 
-.inicio{
-	.circulo-fuera {
-	@include circulo;
-		width: 270px;
-		height: 270px;
-		border: 2px solid white;
-		margin-top: 152px;
-		margin-bottom: 152px;
-		.circulo {
-		@include circulo;
-			width: 250px;
-			height: 250px;
-			border: 1px solid white;
-			margin-top: 8px;
-	}
+header{
+	.circle-photo {
+		display: block;
+		margin: auto;
+		margin-top: 150px;
+		margin-bottom: 105px;
 	}
 }
 
@@ -45,9 +36,21 @@ nav{
 	background-color: white;
 	.circulo {
 		@include circulo;
-			width: 250px;
-			height: 250px;
-			border: 1px solid $turquesa;
-			margin-top: 8px;
+			width: 100px;
+			height: 100px;
+			background-color: $turquesa;
+			margin: auto;
+	}
+}
+
+.skills{
+	.skill-box{
+		position: relative;
+		background-color: white;
+		margin: 10px 5px;
+		p{
+		font-size: 12px;
+
+		}
 	}
 }

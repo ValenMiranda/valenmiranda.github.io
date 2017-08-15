@@ -16,27 +16,11 @@ nav .nav-wrapper {
       padding: 25px 40px 0px 40px;
       font-size: 14px; }
 
-.inicio .circulo-fuera {
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 270px;
-  height: 270px;
-  border: 2px solid white;
-  margin-top: 152px;
-  margin-bottom: 152px; }
-  .inicio .circulo-fuera .circulo {
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    height: 250px;
-    border: 1px solid white;
-    margin-top: 8px; }
+header .circle-photo {
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 105px; }
 
 .about {
   background-color: white; }
@@ -46,9 +30,16 @@ nav .nav-wrapper {
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    width: 250px;
-    height: 250px;
-    border: 1px solid #00BFAD;
-    margin-top: 8px; }
+    width: 100px;
+    height: 100px;
+    background-color: #00BFAD;
+    margin: auto; }
+
+.skills .skill-box {
+  position: relative;
+  background-color: white;
+  margin: 10px 5px; }
+  .skills .skill-box p {
+    font-size: 12px; }
 
 /*# sourceMappingURL=main.css.map */
