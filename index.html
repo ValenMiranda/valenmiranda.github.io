@@ -9,30 +9,28 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Font -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<!-- devicon -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<nav class="transparent z-depth-0">
-		<div class="nav-wrapper">
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-			<ul class="hide-on-med-and-down">
-				<li class="menu-grande"><a href="#about" class="link-grande">SOBRE MI</a></li>
-				<li class="menu-grande"><a href="" class="link-grande">HERRAMIENTAS</a></li>
-				<li class="menu-grande"><a href="" class="link-grande">PORTAFOLIO</a></li>
-				<li class="menu-grande"><a href="" class="link-grande">ENCUÉNTRAME</a></li>
-			</ul>
-			<ul class="side-nav right" id="mobile-demo">
-				<li><a href="#about">SOBRE MI</a></li>
-				<li><a href="">HERRAMIENTAS</a></li>
-				<li><a href="">PORTAFOLIO</a></li>
-				<li><a href="">ENCUÉNTRAME</a></li>
-			</ul>
-		</div>
-	</nav>
+
+	<div class="fixed-action-btn horizontal click-to-toggle">
+		<a class="btn-floating btn-large teal darken-4">
+			<i class="material-icons">menu</i>
+		</a>
+		<ul>
+			<li><a href="#about" class="btn-floating teal"><i class="material-icons">stars</i></a></li>
+			<li><a href="#skills" class="btn-floating teal darken-1"><i class="material-icons">format_quote</i></a></li>
+			<li><a href="#portfolio" class="btn-floating teal darken-2"><i class="material-icons">palette</i></a></li>
+			<li><a href="#findme" class="btn-floating teal darken-3"><i class="material-icons">place</i></a></li>
+		</ul>
+	</div>
+
 	<header>
 		<div class="row">
 			<div class="col s12">
-				<img src="image/circle.png" alt="" class="responsive-img circle-photo">
+				<!--<img src="image/circle.png" alt="" class="responsive-img circle-photo">-->
 			</div>
 		</div>
 	</header>
@@ -41,14 +39,11 @@
 		<div class="row">
 			<div class="col s12">
 				<div class="row">
-					<div class="col s12 l4">
+					<div class="col s6 l4">
 						<h1>SOBRE MI</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ullam eveniet aperiam quam laudantium assumenda neque explicabo atque sunt dolorum eos nostrum necessitatibus laboriosam consequatur dolores nisi, pariatur! Eos, velit!</p>
 					</div>
-					<div class="col s12 l4">
-						<div class="circulo"></div>
-					</div>
-					<div class="col s12 l4">
+					<div class="col s6 l4">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ullam eveniet aperiam quam laudantium assumenda neque explicabo atque sunt dolorum eos nostrum necessitatibus laboriosam consequatur dolores nisi, pariatur! Eos, velit!</p>
 					</div>
 				</div>
@@ -56,65 +51,114 @@
 		</div>
 	</section>
 
-	<section class="skills">
+	<section class="skills" id="skills">
 		<div class="row">
 			<div class="col s12 l12 center-align">
 				<h1>HERRAMIENTAS</h1>
-				<div class="row">
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>HTML</span>
-						<p>sigla en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>JAVASCRIPT</span>
-						<p>(abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del estándar ECMAScript.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>JQUERY</span>
-						<p>Es una biblioteca multiplataforma de JavaScript.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>CSS</span>
-						<p>Sigla en nglés de Cascading Style Sheets, es el lenguaje utilizado para describir la presentación de documentos HTML o XML.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>SASS</span>
-						<p>Sigla en inglés de Syntactically Awesome Stylesheets, es un lenguaje de hoja de estilos.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>GULP</span>
-						<p>Es un conjunto de herramientas de JavaScript de código abierto, utilizado como un sistema de generación de streaming.</p>
-					</div>
+			</div>
+			<div class="row center">
+				<div class="col m2 s6 icon">
+					<i class="devicon-html5-plain icon-tools html5"></i><br>
+					<span><strong>HTML</strong></span>
+					<p>HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web.</p>
 				</div>
-				<div class="row">
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>BOOTSTRAP</span>
-						<p>Es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>MATERIALIZE</span>
-						<p>Es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>SLACK</span>
-						<p>Es una herramienta de comunicación en equipo.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>PHOTOSHOP</span>
-						<p>Es un editor de gráficos rasterizados.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>ILLUSTRATOR</span>
-						<p>Es un editor de gráficos vectoriales en forma de taller de arte.</p>
-					</div>
-					<div class="col l2 s4 skill-box" id="skill-box">
-						<span>INDESIGN</span>
-						<p>Es una aplicación para la composición digital de páginas.</p>
-					</div>
+				<div class="col m2 s6 icon">
+					<i class="devicon-javascript-plain icon-tools js"></i><br>
+					<span>JAVASCRIPT</span>
+					<p>Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript.</p>
+				</div>
+				<div class="col m2 s6 icon">
+					<i class="devicon-jquery-plain icon-tools jquery"></i><br>
+					<span>JQUERY</span>
+					<p>Es una biblioteca multiplataforma de JavaScript.</p>
+				</div>
+				<div class="col m2 s6 icon">
+					<i class="devicon-css3-plain icon-tools css3"></i><br>
+					<span>CSS</span>
+					<p>Cascading Style Sheets, es el lenguaje utilizado para describir la presentación de documentos HTML o XML.</p>
+				</div>
+				<div class="col m2 s6 icon">
+					<i class="devicon-sass-original"></i><br>
+					<span>SASS</span>
+					<p>Syntactically Awesome Stylesheets, es un lenguaje de hoja de estilos.</p>
+				</div>
+				<div class="col m2 s6 icon">
+					<i class="devicon-gulp-plain"></i><br>
+					<span>GULP</span>
+					<p>Es un conjunto de herramientas de JavaScript de código abierto.</p>
+				</div>
+			</div>
+			<div class="row center">
+				<div class="col m2 s6 icon">
+					<i class="devicon-bootstrap-plain icon-tools boots"></i><br>
+					<span>BOOTSTRAP</span>
+					<p>Es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web.</p>
+				</div>
+				<div class="col m2 s6 icon">
+
+					<span>MATERIALIZE</span>
+					<p>Es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web.</p>
+				</div>
+				<div class="col m2 s6 icon">
+					<span>SLACK</span>
+					<p>Es una herramienta de comunicación en equipo.</p>
+				</div>
+				<div class="col m2 s6 icon">
+					<i class="devicon-photoshop-plain icon-tools photo"></i><br>
+					<span>PHOTOSHOP</span>
+					<p>Es un editor de gráficos rasterizados.</p>
+				</div>
+				<div class="col m2 s6 icon">
+					<i class="devicon-illustrator-plain icon-tools illust"></i><br>
+					<span>ILLUSTRATOR</span>
+					<p>Editor de gráficos vectoriales.</p>
+				</div>
+				<div class="col m2 s6 icon">
+					<span>INDESIGN</span>
+					<p>Aplicación para la composición digital de páginas.</p>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<section class="portfolio" id="portfolio">
+		<div class="row">
+			<div class="col l12 s12">
+				<h1>PORTAFOLIO</h1>				
+			</div>
+			<div class="row">
+				<div class="col l4 s6">
+					<img src="image/proyecto1.png" alt="" class="responsive-img">
+				</div>
+				<div class="col l4 s6">
+					<img src="image/proyecto2.png" alt="" class="responsive-img">
+				</div>
+				<div class="col l4 s6">
+					<img src="image/proyecto3.png" alt="" class="responsive-img">
+				</div>
+			
+				<div class="col l4 s6">
+					<img src="image/proyecto1.png" alt="" class="responsive-img">
+				</div>
+				<div class="col l4 s6">
+					<img src="image/proyecto1.png" alt="" class="responsive-img">
+				</div>
+				<div class="col l4 s6">
+					<img src="image/proyecto1.png" alt="" class="responsive-img">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="findme" id="findme">
+		<div class="row">
+			<div class="col l12 s12 center-align">
+				<a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+				<a href=""><i class="fa fa-github-square" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</section>
+
 	<!-- jQuery -->
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<!-- Compiled and minified JavaScript -->

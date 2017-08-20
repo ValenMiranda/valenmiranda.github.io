@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	$(".button-collapse").sideNav();
 
+  $('.modal').modal();
+
 	// Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything

@@ -3,18 +3,15 @@
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif; }
 
-body {
-  background-color: #00BFAD; }
+header {
+  background-image: url("../image/free-macbook-pro-mockup-vintage-2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh; }
 
-nav .nav-wrapper {
-  width: 100%;
-  text-align: center; }
-  nav .nav-wrapper .menu-grande {
-    float: none;
-    display: inline-block; }
-    nav .nav-wrapper .menu-grande .link-grande {
-      padding: 25px 40px 0px 40px;
-      font-size: 14px; }
+.fixed-action-btn {
+  bottom: 0;
+  top: 20px; }
 
 header .circle-photo {
   display: block;
@@ -35,11 +32,29 @@ header .circle-photo {
     background-color: #00BFAD;
     margin: auto; }
 
-.skills .skill-box {
-  position: relative;
-  background-color: white;
-  margin: 10px 5px; }
-  .skills .skill-box p {
-    font-size: 12px; }
+.skills {
+  background-color: #00BFAD;
+  position: relative; }
+  .skills .icon {
+    width: 15%;
+    color: white;
+    margin: 10px 5px; }
+    .skills .icon p {
+      font-size: 12px; }
+
+.portfolio .proyectos {
+  display: inline; }
+
+.findme {
+  background-color: #000B10;
+  height: 100px; }
+  .findme .fa {
+    color: white; }
+
+@media only screen and (min-width: 601px) {
+  .row .col.m2 {
+    width: 24%;
+    left: auto;
+    right: auto; } }
 
 /*# sourceMappingURL=main.css.map */

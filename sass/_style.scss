@@ -4,23 +4,16 @@
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-body{
-	background-color: $turquesa;
+header{
+	background-image: url('../image/free-macbook-pro-mockup-vintage-2.jpg'); // Aqui deberia ir la imagen de fondo
+	background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
 
-nav{
-	.nav-wrapper{
-		width: 100%;
-		text-align: center;
-		.menu-grande{
-			float: none;
-			display: inline-block;
-			.link-grande{
-				padding: 25px 40px 0px 40px;
-				font-size: 14px;
-			}
-		}
-	}
+.fixed-action-btn{
+	bottom: 0;
+	top:20px;
 }
 
 header{
@@ -44,13 +37,37 @@ header{
 }
 
 .skills{
-	.skill-box{
-		position: relative;
-		background-color: white;
+	background-color: $turquesa;
+	position: relative;
+	.icon{
+		width: 15%;
+		color: white;
 		margin: 10px 5px;
 		p{
 		font-size: 12px;
 
 		}
 	}
+}
+
+.portfolio{
+	.proyectos{
+		display: inline;
+	}
+}
+
+.findme{
+	background-color: #000B10;
+	height: 100px;
+	.fa{
+	color: white;
+	}
+}
+
+@media only screen and (min-width: 601px){
+	.row .col.m2 {
+	    width: 24%;
+	    left: auto;
+	    right: auto;
+	    }
 }
