@@ -26,6 +26,7 @@ header{
 }
 
 .about{
+	height: 200px;
 	background-color: white;
 	.circulo {
 		@include circulo;
@@ -38,13 +39,12 @@ header{
 
 .skills{
 	background-color: $turquesa;
-	position: relative;
+	font-weight: 700;
 	.icon{
-		width: 15%;
 		color: white;
 		margin: 10px 5px;
 		p{
-		font-size: 12px;
+		font-size: 14px;
 
 		}
 	}
@@ -59,15 +59,16 @@ header{
 .findme{
 	background-color: #000B10;
 	height: 100px;
-	.fa{
+	a{
 	color: white;
 	}
 }
 
 @media only screen and (min-width: 601px){
 	.row .col.m2 {
-	    width: 24%;
-	    left: auto;
-	    right: auto;
-	    }
+		    width: 23%;
+		    left: auto;
+		    right: auto;
+		    font-size: 20px;
+		}
 }
