@@ -13,48 +13,72 @@ header {
   bottom: 0;
   top: 20px; }
 
-header .circle-photo {
+header .logo {
   display: block;
   margin: auto;
-  margin-top: 150px;
-  margin-bottom: 105px; }
+  margin-top: 150px; }
 
 .about {
+  height: 600px;
   background-color: white; }
-  .about .circulo {
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    height: 100px;
-    background-color: #00BFAD;
-    margin: auto; }
+  .about img {
+    max-width: 100%;
+    height: auto; }
+  .about p {
+    padding: 10px; }
 
 .skills {
-  background-color: #00BFAD;
-  position: relative; }
+  background-color: #00BFAD; }
   .skills .icon {
-    width: 15%;
     color: white;
-    margin: 10px 5px; }
+    margin-bottom: 20px;
+    padding: 0 10px; }
+    .skills .icon i {
+      font-size: 30px; }
     .skills .icon p {
-      font-size: 12px; }
+      font-size: 14px;
+      text-align: justify; }
 
-.portfolio .proyectos {
-  display: inline; }
+.portfolio .contenedor {
+  overflow: hidden; }
+  .portfolio .contenedor div.imagen {
+    overflow: hidden;
+    -webkit-transition: height .4s; }
+    .portfolio .contenedor div.imagen img.imagen {
+      display: block;
+      -webkit-transition: margin-top .4s; }
+  .portfolio .contenedor div.info {
+    height: 0px;
+    background-color: teal;
+    overflow: hidden;
+    -webkit-transition: height .4s; }
+    .portfolio .contenedor div.info a.link {
+      margin: 25px 35px 0 55px;
+      padding: 0 30px;
+      background-color: white;
+      font-size: .8em;
+      color: teal;
+      text-decoration: none; }
+  .portfolio .contenedor:hover div.imagen {
+    height: 210px; }
+  .portfolio .contenedor:hover div.info {
+    height: 90px; }
 
 .findme {
   background-color: #000B10;
-  height: 100px; }
-  .findme .fa {
-    color: white; }
-
-@media only screen and (min-width: 601px) {
-  .row .col.m2 {
-    width: 24%;
-    left: auto;
-    right: auto; } }
+  height: 130px;
+  margin-bottom: 0; }
+  .findme a {
+    color: white;
+    margin-top: 20px; }
+    .findme a:hover {
+      color: teal; }
+    .findme a i {
+      font-size: 30px;
+      padding: 10px;
+      margin-top: 10px; }
+  .findme h6 {
+    font-weight: 600;
+    letter-spacing: 1pt; }
 
 /*# sourceMappingURL=main.css.map */
