@@ -13,13 +13,15 @@ header {
   bottom: 0;
   top: 20px; }
 
-header .logo {
-  display: block;
-  margin: auto;
-  margin-top: 150px; }
+header {
+  hight: 100vh; }
+  header .logo {
+    display: block;
+    margin: auto;
+    margin-top: 150px; }
 
 .about {
-  height: 600px;
+  hight: 100vh;
   background-color: white; }
   .about img {
     max-width: 100%;
@@ -28,56 +30,32 @@ header .logo {
     padding: 10px; }
 
 .skills {
-  background-color: #00BFAD; }
+  hight: 100vh;
+  background-color: #0CC19F; }
   .skills .icon {
-    color: white;
-    margin-bottom: 20px;
-    padding: 0 10px; }
+    color: white; }
     .skills .icon i {
       font-size: 30px; }
     .skills .icon p {
       font-size: 14px;
-      text-align: justify; }
+      text-align: left; }
 
-.portfolio .contenedor {
-  overflow: hidden; }
-  .portfolio .contenedor div.imagen {
-    overflow: hidden;
-    -webkit-transition: height .4s; }
-    .portfolio .contenedor div.imagen img.imagen {
-      display: block;
-      -webkit-transition: margin-top .4s; }
-  .portfolio .contenedor div.info {
-    height: 0px;
-    background-color: teal;
-    overflow: hidden;
-    -webkit-transition: height .4s; }
-    .portfolio .contenedor div.info a.link {
-      margin: 25px 35px 0 55px;
-      padding: 0 30px;
-      background-color: white;
-      font-size: .8em;
-      color: teal;
-      text-decoration: none; }
-  .portfolio .contenedor:hover div.imagen {
-    height: 210px; }
-  .portfolio .contenedor:hover div.info {
-    height: 90px; }
+.portfolio {
+  hight: 100vh; }
 
-.findme {
+footer {
   background-color: #000B10;
-  height: 130px;
-  margin-bottom: 0; }
-  .findme a {
+  hight: 100vh; }
+  footer a {
     color: white;
     margin-top: 20px; }
-    .findme a:hover {
+    footer a:hover {
       color: teal; }
-    .findme a i {
+    footer a i {
       font-size: 30px;
       padding: 10px;
       margin-top: 10px; }
-  .findme h6 {
+  footer h6 {
     font-weight: 600;
     letter-spacing: 1pt; }
 

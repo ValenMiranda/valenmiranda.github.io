@@ -17,6 +17,7 @@ header{
 }
 
 header{
+	hight: 100vh;
 	.logo{
 		display: block;
 		margin: auto;
@@ -25,7 +26,7 @@ header{
 }
 
 .about{
-	height: 600px;
+	hight: 100vh;
 	background-color: white;
 	img{
 	max-width: 100%;
@@ -37,63 +38,30 @@ header{
 }
 
 .skills{
-	background-color: $turquesa;
+	hight: 100vh;
+	background-color: #0CC19F;
 	.icon{
 		color: white;
-		margin-bottom: 20px;
-		padding: 0 10px;
+
 		i{
 		font-size:30px;
 		}
 		p{
 			font-size: 14px;
-			text-align: justify;
+			text-align: left;
 		}
 	}
 }
 
 .portfolio{
-	.contenedor{
-		overflow: hidden;
-		div.imagen{			
-			overflow: hidden;
-			-webkit-transition: height .4s;
-			img.imagen{
-				display: block;			
-				-webkit-transition: margin-top .4s;
-			}
-		}
-		div.info{			
-			height:0px;
-			background-color: teal;
-			overflow: hidden;
-			-webkit-transition: height .4s;
-			a.link{
-				margin: 25px 35px 0 55px;
-				padding: 0 30px;
-				background-color:white;
-				font-size: .8em;
-				color:teal;
-				text-decoration: none;
-			}
-		}
-		&:hover{
-			div.imagen{
-				height: 210px;
-			}
-		}
-		&:hover{
-			div.info{
-				height:90px;
-			}
-		}
-	}
+	hight: 100vh;
+	
 }
 
-.findme{
+footer{
 	background-color: #000B10;
-	height: 130px;
-	margin-bottom: 0;
+	hight: 100vh;
+
 	a{
 		color: white;
 		margin-top:20px;
