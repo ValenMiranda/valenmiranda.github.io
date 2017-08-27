@@ -27,7 +27,9 @@ header {
     max-width: 100%;
     height: auto; }
   .about p {
-    padding: 10px; }
+    padding: 10px;
+    font-size: 16px;
+    text-align: -webkit-auto; }
 
 .skills {
   hight: 100vh;
@@ -37,11 +39,20 @@ header {
     .skills .icon i {
       font-size: 30px; }
     .skills .icon p {
-      font-size: 14px;
+      font-size: 13px;
       text-align: left; }
 
 .portfolio {
   hight: 100vh; }
+  .portfolio .card .card-content {
+    padding: 10px 20px; }
+  .portfolio .card .card-title {
+    font-size: 17px; }
+    .portfolio .card .card-title i {
+      margin-left: 0; }
+  .portfolio .card a {
+    margin-top: 10px;
+    font-size: 14px; }
 
 footer {
   background-color: #000B10;
