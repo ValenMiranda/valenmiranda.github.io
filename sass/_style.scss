@@ -17,7 +17,7 @@ header{
 }
 
 header{
-	hight: 100vh;
+	height: 100vh;
 	.logo{
 		display: block;
 		margin: auto;
@@ -26,8 +26,11 @@ header{
 }
 
 .about{
-	hight: 100vh;
+	height: 100vh;
 	background-color: white;
+	h3{
+	color: #3D3D3D;
+	}
 	img{
 	max-width: 100%;
 	height: auto;
@@ -40,8 +43,11 @@ header{
 }
 
 .skills{
-	hight: 100vh;
+	height: 100vh;
 	background-color: #0CC19F;
+	h3{
+	color: #024C3F;
+	}
 	.icon{
 		color: white;
 
@@ -56,7 +62,11 @@ header{
 }
 
 .portfolio{
-	hight: 100vh;
+	height: 100vh;
+	margin-bottom: 50px;
+	h3{
+	color: #3D3D3D;
+	}
 	.card{
 		.card-content {
 	    padding: 10px 20px;
@@ -77,8 +87,9 @@ header{
 
 footer{
 	background-color: #000B10;
-	hight: 100vh;
-
+	.row{
+	margin-bottom: 0;
+	}
 	a{
 		color: white;
 		margin-top:20px;

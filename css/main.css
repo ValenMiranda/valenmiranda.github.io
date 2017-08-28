@@ -14,15 +14,17 @@ header {
   top: 20px; }
 
 header {
-  hight: 100vh; }
+  height: 100vh; }
   header .logo {
     display: block;
     margin: auto;
     margin-top: 150px; }
 
 .about {
-  hight: 100vh;
+  height: 100vh;
   background-color: white; }
+  .about h3 {
+    color: #3D3D3D; }
   .about img {
     max-width: 100%;
     height: auto; }
@@ -32,8 +34,10 @@ header {
     text-align: -webkit-auto; }
 
 .skills {
-  hight: 100vh;
+  height: 100vh;
   background-color: #0CC19F; }
+  .skills h3 {
+    color: #024C3F; }
   .skills .icon {
     color: white; }
     .skills .icon i {
@@ -43,7 +47,10 @@ header {
       text-align: left; }
 
 .portfolio {
-  hight: 100vh; }
+  height: 100vh;
+  margin-bottom: 50px; }
+  .portfolio h3 {
+    color: #3D3D3D; }
   .portfolio .card .card-content {
     padding: 10px 20px; }
   .portfolio .card .card-title {
@@ -55,8 +62,9 @@ header {
     font-size: 14px; }
 
 footer {
-  background-color: #000B10;
-  hight: 100vh; }
+  background-color: #000B10; }
+  footer .row {
+    margin-bottom: 0; }
   footer a {
     color: white;
     margin-top: 20px; }
