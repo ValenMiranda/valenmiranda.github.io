@@ -18,10 +18,9 @@ header {
   header .logo {
     display: block;
     margin: auto;
-    margin-top: 150px; }
+    margin-top: 140px; }
 
 .about {
-  height: 100vh;
   background-color: white; }
   .about h3 {
     color: #3D3D3D; }
@@ -34,7 +33,6 @@ header {
     text-align: -webkit-auto; }
 
 .skills {
-  height: 100vh;
   background-color: #0CC19F; }
   .skills h3 {
     color: #024C3F; }
@@ -47,7 +45,6 @@ header {
       text-align: left; }
 
 .portfolio {
-  height: 100vh;
   margin-bottom: 50px; }
   .portfolio h3 {
     color: #3D3D3D; }
@@ -63,8 +60,6 @@ header {
 
 footer {
   background-color: #000B10; }
-  footer .row {
-    margin-bottom: 0; }
   footer a {
     color: white;
     margin-top: 20px; }
